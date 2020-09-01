@@ -32,6 +32,7 @@ class Ingredient(models.Model):
 		
 class Cocktail(models.Model):
     board = models.ForeignKey(Board, on_delete=models.CASCADE)
+    description = models.CharField(max_length=500, blank=True, null=True)
     taste = models.CharField(max_length=500, blank=True, null=True)
     glass = models.CharField(max_length=500, blank=True, null=True)
     blend = models.CharField(max_length=500, blank=True, null=True)
