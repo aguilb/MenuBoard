@@ -35,6 +35,9 @@ class Cocktail(models.Model):
     taste = models.CharField(max_length=500, blank=True, null=True)
     glass = models.CharField(max_length=500, blank=True, null=True)
     blend = models.CharField(max_length=500, blank=True, null=True)
+    Alcohol = models.IntegerField(default=0)
+    Sweetness = models.IntegerField(default=0)
+    Bitterness = models.IntegerField(default=0)
     ingredients = models.ManyToManyField(Ingredient, through='CocktailIngredient')
     instructions = models.ManyToManyField(Instruction)
 
