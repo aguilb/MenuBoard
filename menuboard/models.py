@@ -26,6 +26,7 @@ class Instruction(models.Model):
 class Ingredient(models.Model):
     nom = models.CharField(max_length=500, blank=True, null=True)
     type = models.CharField(max_length=500, blank=True, null=True)
+    class_color = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'ingredient'
