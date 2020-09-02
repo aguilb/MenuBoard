@@ -34,6 +34,10 @@ menuboard -> admin / "sat***1***"
 
 -> python manage.py inspectdb > models.py
 
+git pull
+git commit -m ""
+git push
+
 HTML :
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
     <div class="col mb-4">
@@ -132,6 +136,3 @@ HTML :
         </div>
     </div>
 </div>
-git pull
-git commit -m ""
-git push
