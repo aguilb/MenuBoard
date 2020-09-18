@@ -27,6 +27,7 @@ root -> pwd "th***"
 menuboard -> admin / "sat***1***"
 
 ==========
+
 -> python manage.py inspectdb > models.py
 
 -> python manage.py runserver 0.0.0.0:8000
