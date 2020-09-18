@@ -33,6 +33,7 @@ menuboard -> admin / "sat***1***"
 -> python manage.py runserver 0.0.0.0:8000
 
 git pull
+git -a
 git commit -m ""
 git push
 
