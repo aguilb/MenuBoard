@@ -4,6 +4,8 @@ https://www.skysilk.com/blog/2017/how-to-make-a-blog-with-django/
 
 https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django/1872229-les-modeles
 
+https://github.com/oc-courses/decouvrez_django/blob/master/disquaire_project/store/models.py
+
 -> django-admin startproject web_project (ou python -m django ...)
 -> Fichier settings.py :
 	- Configuration MYSQL :
